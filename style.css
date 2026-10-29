@@ -83,3 +83,16 @@ button{font-family:inherit}
   .tracking-button{font-size:9px;padding:8px 10px}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.project-name{
+  font-size: clamp(38px, 4.4vw, 62px) !important;
+  line-height: .94;
+}
+
+.site-footer{
+  font-size: 11px !important;
+}
+
+.cursor-toggle{
+  transform: scale(1.15);
+  transform-origin: right bottom;
+}
