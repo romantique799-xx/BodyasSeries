@@ -2,12 +2,14 @@
  * Hand control: index fingertip = cursor, thumb+index pinch = grab.
  * Pinch on a title, drag 65px, release = enter; same for BACK.
  */
+
 const PROJECTS = [
-  { name: 'BODY AS MATTER', src: './projects/01-voice-as-matter/index.html' },
-  { name: 'HAND AS INSTRUMENT', src: './projects/02-hand-as-instrument/index.html' },
-  { name: 'BREATH AS INK', src: './projects/03-breath-as-ink/index.html' },
-  { name: 'BODY AS GRID', src: './projects/04-body-as-grid/index.html' }
+  { name: 'BODY AS MATTER', src: './01-voice-as-matter/index.html' },
+  { name: 'HAND AS INSTRUMENT', src: './02-hand-as-instrument/index.html' },
+  { name: 'BREATH AS INK', src: './03-breath-as-ink/index.html' },
+  { name: 'BODY AS GRID', src: './04-body-as-grid/index.html' }
 ];
+
 const $ = q => document.querySelector(q);
 const home = $('#home');
 const viewer = $('#viewer');
